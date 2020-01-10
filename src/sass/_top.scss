@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import "compass/reset";
+$top_width:100%;
+$top_height:30px;
+$tou_width:1090px;
+
+
+.top{
+    width: $top_width;
+    height: $top_height;
+    background: black;
+    .top_zhong{
+      width: 1090px;
+      height: 30px;
+      margin: 0 auto;
+    .hello{
+        color:rgb(148, 147, 147);
+        font-size: 12px;
+        line-height: 30px;
+    }
+}
+}
+.tou{
+    width: $tou_width;
+    height: 100px;
+    margin: 0 auto;
+    background: blue;
+}
+.daohanl{//导航栏
+    width:$tou_width;
+    height: 40px;
+    background: brown;
+    margin: 0 auto;
+}
+.guanggao{//广告
+    width: 1519px;
+    height: 506px;
+    background: chartreuse;
+     .imgs{
+        width: 1519px;
+        height: 506px;
+     }
+
+    }
+.neirong{
+    width: 1000px;
+    height: 1002px;
+    background: cornflowerblue;
+    margin: 0 auto;
+}
